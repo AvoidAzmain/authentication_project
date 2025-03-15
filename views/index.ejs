@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script> 
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <h1 class="bg-red-500">hulabuga</h1>
+    <div class="w-full h-screen bg-gray-600 text-white">
+        <form action="/create" method="post" >
+            <input type="text" name="username" placeholder="Enter your name"  class="input input-bordered input-error w-full max-w-xs">
+            <input type="email" name="email" placeholder="email"  class="input input-bordered input-error w-full max-w-xs ">
+            <input type="password" name="password" placeholder="Enter your password" id=""  class="input input-bordered input-error w-full max-w-xs">
+            <input type="number" name="age" id="" placeholder="age"  class="input input-bordered input-error w-full max-w-xs">
+            <input type="submit" value="create user" id="" class="btn btn-accent btn-outline">
+        </form>
+    </div>
+</body>
+</html>
